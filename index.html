@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Lovers Explorer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="site-title">Plant Lovers</h1>
+        <div class="header-controls">
+            <button id="hamburger-menu">☰</button>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="အပင်အမည် ရှာဖွေရန်...">
+    </div>
+
+    <div class="category-filters">
+        <button class="filter-btn active" data-category="all" id="btn-filter-all">အားလုံး</button>
+        <button class="filter-btn" data-category="medicinal" id="btn-filter-medicinal">ဆေးဖက်ဝင်</button>
+        <button class="filter-btn" data-category="seasonal" id="btn-filter-seasonal">ရာသီပေါ်</button>
+        <button class="filter-btn" data-category="indoor" id="btn-filter-indoor">အိမ်တွင်းစိုက်</button>
+    </div>
+
+    <main id="plant-container"></main>
+
+    <div id="plant-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modal-img" src="" alt="Plant Image">
+            <h2 id="modal-title">အပင်အမည်</h2>
+            <div class="modal-info">
+                <p id="modal-desc">အပင်အကြောင်း အသေးစိတ်...</p>
+                <p><strong id="lbl-sun">☀️ နေရောင်ခြည် -</strong> <span id="modal-sun"></span></p>
+                <p><strong id="lbl-water">💧 ရေလိုအပ်ချက် -</strong> <span id="modal-water"></span></p>
+                <p><strong id="lbl-soil">🌱 မြေဆီလွှာ -</strong> <span id="modal-soil"></span></p>
+                <p><strong id="lbl-care">🛠️ ပြုစုရန် -</strong> <span id="modal-care"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="side-menu" class="side-menu">
+        <button id="close-menu">×</button>
+        <div class="menu-items">
+            <div class="menu-lang-toggle">
+                <button id="btn-en-menu">English</button>
+                <button id="btn-mm-menu" class="active">မြန်မာ</button>
+            </div>
+            <button id="btn-theme">🌙 Dark Mode</button>
+            <button id="btn-contact">📞 Contact Us</button>
+        </div>
+    </div>
+    <div id="contact-modal" class="modal">
+        <div class="modal-content contact-content">
+            <span class="close-contact">&times;</span>
+            <div class="contact-container">
+                <div class="contact-title">Connect with Me</div>
+                <a href="viber://chat?number=%2B959693718379" class="contact-item">
+                    <i class="fab fa-viber viber-bg"></i><span>Viber: +959693718379</span>
+                </a>
+                <a href="mailto:satkaungk16@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope email-bg"></i><span>Email: satkaungk16@gmail.com</span>
+                </a>
+                <a href="https://www.facebook.com/sat.kaung.khant.72569" target="_blank" class="contact-item">
+                    <i class="fab fa-facebook-f fb-bg"></i><span>Facebook: Sat Kaung Khant</span>
+                </a>
+                <a href="https://t.me/satkaungkhant11" target="_blank" class="contact-item">
+                    <i class="fab fa-telegram-plane tg-bg"></i><span>Telegram: Sat Kaung Khant</span>
+                </a>
+                <a href="https://www.linkedin.com/in/sat-kaung-khant-392b44409/" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin-in linkedin-bg"></i><span>LinkedIn: Sat Kaung Khant</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 🌟 Back to Top Button 🌟 -->
+    <button id="back-to-top" title="အပေါ်သို့ ပြန်တက်ရန်">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="app.js"></script>
+</body>
+</html>

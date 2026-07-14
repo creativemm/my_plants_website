@@ -1,0 +1,594 @@
+/* အခြေခံ သတ်မှတ်ချက်များ (Reset) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f7f4; /* မျက်စိအေးစေမည့် အစိမ်းနုရောင် နောက်ခံ */
+    color: #333;
+}
+
+/* Header ဒီဇိုင်း အသစ် */
+header {
+    background-color: #2b6747;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Menu အတွင်းရှိ Language Toggle ဒီဇိုင်း */
+.menu-lang-toggle {
+    display: flex;
+    border: 2px solid #2b6747;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.menu-lang-toggle button {
+    flex: 1; /* ခလုတ်နှစ်ခုကို နေရာတစ်ဝက်စီ ညီတူယူစေရန် */
+    background-color: transparent;
+    color: #2b6747;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* ရွေးချယ်ထားသော ဘာသာစကားအတွက် အရောင် */
+.menu-lang-toggle button.active {
+    background-color: #2b6747;
+    color: white;
+}
+
+/* Dark Mode အတွက် Language Toggle အရောင်ပြောင်းခြင်း */
+body.dark-mode .menu-lang-toggle {
+    border-color: #4ade80;
+}
+body.dark-mode .menu-lang-toggle button {
+    color: #4ade80;
+}
+body.dark-mode .menu-lang-toggle button.active {
+    background-color: #4ade80;
+    color: #1e1e1e;
+}
+
+/* အပင်ကတ်များ ပြသမည့် နေရာ (Grid Layout ဖြင့် အစီအစဉ်တကျဖြစ်စေရန်) */
+#plant-container {
+    display: grid;
+    /* ဖုန်း၊ Tablet၊ PC ပေါ်မူတည်၍ ကတ်များကို အလိုအလျောက် နေရာချပေးမည် */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* အပင်ကတ် တစ်ခုချင်းစီ၏ ဒီဇိုင်း (Card Style) */
+.plant-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 5px solid #2b6747; /* ကတ်အပေါ်ဘက်တွင် အစိမ်းရောင် မျဉ်းလေးထည့်ထားခြင်း */
+}
+
+/* ကတ်ပေါ် Mouse တင်လိုက်လျှင် အပေါ်သို့ အနည်းငယ်ကြွတက်လာစေရန် */
+.plant-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.plant-card h2 {
+    color: #198754;
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+}
+
+.plant-card p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #555;
+}
+/* =========================================
+   Professional Side Menu (Slide-out Drawer) 
+   ========================================= */
+
+/* မူလအချိန်တွင် ညာဘက်အပြင်သို့ ရောက်နေစေရန် (ဖျောက်ထားရန်) */
+.side-menu {
+    position: fixed; /* မျက်နှာပြင်ပေါ်တွင် အသေကပ်ထားမည် */
+    top: 0;
+    right: -350px; /* ညာဘက် မျက်နှာပြင်အပြင်ဘက်သို့ တွန်းထုတ်ထားခြင်း */
+    width: 300px; /* Menu ၏ အကျယ် */
+    height: 100vh; /* အပေါ်မှအောက် အပြည့် */
+    background-color: #ffffff;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2); /* ဘေးဘက် အရိပ်ထည့်ခြင်း */
+    z-index: 9999; /* အရာအားလုံး၏ အပေါ်ဆုံးတွင် ပေါ်စေရန် */
+    transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1); /* အိအိလေး ထွက်လာစေရန် */
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ☰ ခလုတ်နှိပ်လိုက်ချိန်တွင် (JS မှ .show class ထည့်ပေးချိန်) ညာဘက်အစွန်းသို့ ကပ်လာစေရန် */
+.side-menu.show {
+    right: 0; 
+}
+
+/* ပိတ်မည့် ခလုတ် (x) ဒီဇိုင်း */
+#close-menu {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    line-height: 1;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: color 0.3s;
+}
+
+#close-menu:hover {
+    color: #dc3545; /* Mouse တင်လျှင် အနီရောင်ပြောင်းရန် */
+}
+
+/* Menu အတွင်းရှိ ခလုတ်များ စီစဉ်မှု */
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-items > button {
+    background-color: #f0f7f4;
+    border: 1px solid #2b6747;
+    color: #2b6747;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+.menu-items > button:hover {
+    background-color: #2b6747;
+    color: white;
+}
+/* အပင်ပုံ (Image) ဒီဇိုင်း */
+.plant-image {
+    width: 100%; /* Card ရဲ့ အကျယ်အတိုင်း အပြည့်ယူမည် */
+    height: 220px; /* ပုံအားလုံးကို အမြင့်တူညီအောင် သတ်မှတ်မည် */
+    object-fit: cover; /* ပုံမပိန်သွား၊ မပုသွားစေရန် ဖြတ်တောက်ညှိပေးမည် */
+    border-radius: 8px; /* ထောင့်လေးများကို ဝိုင်းထားမည် */
+    margin-bottom: 15px; /* ပုံနှင့် စာသားကြား အကွာအဝေး */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+/* Search Bar ဒီဇိုင်း */
+.search-container {
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#search-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: 2px solid #2b6747;
+    border-radius: 30px; /* ဘေးဘက်များကို အဝိုင်းပုံစံဖြစ်စေရန် */
+    outline: none;
+    transition: all 0.3s;
+}
+
+/* စာရိုက်ရန် ထောက်လိုက်ချိန်တွင် အရောင်လင်းလာစေရန် */
+#search-input:focus {
+    box-shadow: 0 0 10px rgba(43, 103, 71, 0.3);
+}
+
+/* Dark Mode အတွက် Search Bar အရောင် */
+body.dark-mode #search-input {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #4ade80;
+}
+/* Category Filters ဒီဇိုင်း */
+.category-filters {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px auto 0;
+    padding: 0 40px;
+    flex-wrap: wrap; /* မျက်နှာပြင်ကျဉ်းလျှင် အောက်တစ်ကြောင်းသို့ ဆင်းသွားရန် */
+    max-width: 1200px;
+}
+
+.filter-btn {
+    padding: 8px 18px;
+    border: 2px solid #2b6747;
+    background-color: transparent;
+    color: #2b6747;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+/* ခလုတ်ကို ထောက်လိုက်ချိန် သို့မဟုတ် ရွေးချယ်ထားချိန် */
+.filter-btn:hover, .filter-btn.active {
+    background-color: #2b6747;
+    color: white;
+}
+
+/* Dark Mode အတွက် Category Filters */
+body.dark-mode .filter-btn {
+    border-color: #4ade80;
+    color: #4ade80;
+}
+
+body.dark-mode .filter-btn:hover, body.dark-mode .filter-btn.active {
+    background-color: #4ade80;
+    color: #1e1e1e;
+}
+/* =========================================
+   Plant Detail Modal (Popup) 
+   ========================================= */
+
+/* Modal နောက်ခံအမည်းရောင် (ပုံမှန်အချိန်တွင် ဖျောက်ထားမည်) */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* အမည်းရောင် မှန်ပြောင်း */
+    backdrop-filter: blur(4px); /* နောက်ခံကို ဝါးစေရန် */
+    align-items: center;
+    justify-content: center;
+}
+
+/* JS မှ show class ထည့်ပေးလိုက်လျှင် ပေါ်လာစေရန် */
+.modal.show {
+    display: flex; 
+}
+
+/* Modal အဖြူရောင် အကွက်လေး */
+.modal-content {
+    background-color: #f0f7f4;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    animation: modalFadeIn 0.3s ease-out; /* အပေါ်ကနေ အိကျလာမည့် Animation */
+}
+
+@keyframes modalFadeIn {
+    from { transform: translateY(-30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* ပိတ်မည့် ခလုတ် (x) */
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close-modal:hover {
+    color: #dc3545;
+}
+
+/* Modal အတွင်းရှိ ပုံနှင့် စာသားများ */
+#modal-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#modal-title {
+    color: #198754;
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+}
+
+#modal-desc {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Dark Mode အတွက် Modal ပြင်ဆင်ချက် */
+body.dark-mode .modal-content {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+body.dark-mode .close-modal { color: #fff; }
+body.dark-mode #modal-title { color: #4ade80; }
+/* =========================================
+   Contact Us Modal Styles
+   ========================================= */
+
+.contact-content {
+    max-width: 450px;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 1.8rem;
+    color: #2b6747;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* =========================================
+   🌙 Dark Mode - "Midnight Neon" Theme 
+   ========================================= */
+
+/* ၁။ နောက်ခံကို မိုက်မဲနေသော Gradient အရောင်ပြောင်းခြင်း */
+body.dark-mode {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* ညသန်းခေါင်ယံ အရောင်စပ် */
+    color: #e2e8f0;
+    min-height: 100vh;
+}
+
+/* ၂။ Header ကို မှန်လို ကြည်လင်ပြီး အောက်ခြေလင်းနေစေခြင်း */
+body.dark-mode header {
+    background: rgba(15, 32, 39, 0.7);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #00ffcc;
+    box-shadow: 0 4px 20px rgba(0, 255, 204, 0.2);
+}
+
+body.dark-mode #site-title {
+    color: #00ffcc;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.6); /* စာသားကို မီးလင်းစေခြင်း */
+}
+
+/* ၃။ Search Bar ကို နေယွန်စတိုင် ပြောင်းခြင်း */
+body.dark-mode #search-input {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border: 2px solid #00ffcc;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+}
+
+body.dark-mode #search-input:focus {
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* ၄။ Category ခလုတ်များကို လင်းလက်စေခြင်း */
+body.dark-mode .filter-btn {
+    border-color: #00ffcc;
+    color: #00ffcc;
+    background-color: rgba(0, 255, 204, 0.05);
+}
+
+body.dark-mode .filter-btn:hover, 
+body.dark-mode .filter-btn.active {
+    background-color: #00ffcc;
+    color: #0f2027;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.8);
+}
+
+/* ၅။ အပင်ကတ် (Cards) များကို Glassmorphism ပုံစံပြောင်းခြင်း */
+body.dark-mode .plant-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(0, 255, 204, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+}
+
+body.dark-mode .plant-card:hover {
+    border-color: #00ffcc;
+    box-shadow: 0 0 25px rgba(0, 255, 204, 0.4);
+    transform: translateY(-8px);
+}
+
+body.dark-mode .plant-card h2 {
+    color: #4ade80;
+}
+
+/* ၆။ Modal (Popup) နှင့် ဆက်သွယ်ရန် Form ကို အမိုက်စား ပြင်ဆင်ခြင်း */
+body.dark-mode .modal-content {
+    background: linear-gradient(145deg, #1a2a32, #10191e);
+    border: 1px solid #00ffcc;
+    box-shadow: 0 0 30px rgba(0, 255, 204, 0.2);
+    color: #e0e0e0;
+}
+
+body.dark-mode #modal-title, 
+body.dark-mode .contact-title {
+    color: #00ffcc;
+    text-shadow: 0 0 8px rgba(0, 255, 204, 0.4);
+}
+
+body.dark-mode .close-modal, 
+body.dark-mode .close-contact {
+    color: #00ffcc;
+}
+
+body.dark-mode .close-modal:hover, 
+body.dark-mode .close-contact:hover {
+    color: #ff3366;
+    text-shadow: 0 0 10px rgba(255, 51, 102, 0.6);
+}
+
+body.dark-mode .contact-item {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .contact-item:hover {
+    background-color: rgba(0, 255, 204, 0.1);
+    border-color: #00ffcc;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+}
+
+/* ၇။ Hamburger Menu ကို အရောင်ပြောင်းခြင်း */
+body.dark-mode .side-menu {
+    background: linear-gradient(135deg, #0f2027, #203a43);
+    border-left: 2px solid #00ffcc;
+    box-shadow: -5px 0 25px rgba(0, 255, 204, 0.2);
+}
+
+body.dark-mode .side-menu button {
+    color: #e0e0e0;
+}
+
+body.dark-mode .side-menu button:hover {
+    color: #00ffcc;
+}
+
+body.dark-mode .menu-lang-toggle button.active {
+    background-color: #00ffcc;
+    color: #0f2027;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.6);
+}
+/* =========================================
+   Contact Us Modal Styles (ပြင်ဆင်ထားသော ဒီဇိုင်း)
+   ========================================= */
+
+/* Button များကို အောက်သို့ တစ်တန်းစီ စီရန် */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* ခလုတ်တစ်ခုနှင့်တစ်ခု အကွာအဝေး */
+    margin-top: 20px;
+}
+
+/* လင့်ခ်များကို ခလုတ် (Button) ပုံစံပြောင်းရန် */
+.contact-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* အပြာရောင်မျဉ်းသားကို ဖျောက်ရန် */
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* ခလုတ်ပေါ်သို့ Mouse တင်လိုက်သောအခါ (Hover Effect) */
+.contact-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Dark Mode အတွက် ခလုတ်အရောင် (Midnight Neon) */
+body.dark-mode .contact-item {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+}
+body.dark-mode .contact-item:hover {
+    background-color: rgba(0, 255, 204, 0.1);
+    border-color: #00ffcc;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+}
+
+/* Icon ဒီဇိုင်းနှင့် အရောင်များ */
+.contact-item i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.viber-bg { background-color: #7360f2; }
+.email-bg { background-color: #ea4335; }
+.fb-bg { background-color: #1877f2; }
+.tg-bg { background-color: #0088cc; }
+.linkedin-bg { background-color: #0a66c2; }
+
+/* ပိတ်မည့် (X) ခလုတ် */
+.close-contact {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+body.dark-mode .close-contact { color: #00ffcc; }
+/* =========================================
+   Back to Top Button Styles
+   ========================================= */
+
+#back-to-top {
+    display: none; /* အစပိုင်းတွင် ဖျောက်ထားမည် */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99; /* အပေါ်ဆုံးတွင် ပေါ်နေစေရန် */
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #2b6747;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* အဝိုင်းပုံစံ */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#back-to-top:hover {
+    background-color: #1a422d;
+    transform: translateY(-5px); /* Mouse တင်လျှင် အပေါ်သို့ အနည်းငယ်ကြွတက်မည် */
+}
+
+/* Dark Mode အတွက် (Midnight Neon) */
+body.dark-mode #back-to-top {
+    background-color: #00ffcc;
+    color: #0f2027;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+}
+
+body.dark-mode #back-to-top:hover {
+    background-color: #4ade80;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.8);
+}

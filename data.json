@@ -1,0 +1,1199 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/fGNnPZwt/aloe-vera.webp",
+    "category": "medicinal",
+    "mm": {
+      "name": "ရှားစောင်းလက်ပပ်",
+      "description": "အရည်ရွှမ်းပြီး အသားထူသော အရွက်များရှိသည့် လူကြိုက်များသော အပင်ဖြစ်သည်။ အရွက်အတွင်းရှိ ဂျယ်လ် (Gel) သည် အရေပြားကျန်းမာရေး၊ အပူလောင်နာများ သက်သာစေခြင်းနှင့် အစာခြေစနစ်အတွက် အထူးကောင်းမွန်သည်။ ညဘက်တွင် အောက်ဆီဂျင်ထုတ်လွှတ်ပေးသဖြင့် အိမ်တွင်းလေကို သန့်စင်ပေးနိုင်သော အစွမ်းလည်းရှိပါသည်။",
+      "sunlight": "တိုက်ရိုက်မဟုတ်သော နေရောင်ခြည် (သို့) နေရောင် အသင့်အတင့်",
+      "water": "မြေကြီး အပြည့်အဝ ခြောက်သွေ့သွားမှသာ ရေဝဝလောင်းပါ (ရေဝပ်ခြင်းကို လုံးဝ မနှစ်သက်ပါ)",
+      "soil": "ရေဆင်းကောင်းမွန်သော သဲဆန်သောမြေ (ရှားစောင်းမြေဆွေး)",
+      "care_level": "စိုက်ပျိုးရန် အလွန်လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Aloe Vera",
+      "description": "A popular succulent plant with fleshy green leaves. It is widely known for its soothing gel, which is excellent for skin health, treating minor burns, and aiding digestion. It also releases oxygen at night, making it a great indoor air purifier.",
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Water deeply but infrequently. Allow the soil to dry completely between waterings.",
+      "soil": "Well-draining, sandy soil (e.g., cactus mix)",
+      "care_level": "Very easy to care for"
+    }
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/jKqs91m/snake-plant.webp",
+    "category": "indoor",
+    "mm": {
+      "name": "ယောက္ခမလျှာပင်",
+      "description": "ညဘက်တွင် အောက်ဆီဂျင်ထုတ်လွှတ်ပေးပြီး လေထုအတွင်းရှိ အဆိပ်အတောက်များကိі ဖယ်ရရနညသည်။ ပရစဉ្តရ အလနလယကမပ၏ နရမရဝ ရငသနနသည။",
+      "sunlight": "နရရင အသငအတငမက အရပကသနရက",
+      "water": "မြေကြီး လုံးဝခြောက်သွေ့မှသာ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသော သဲဆန်သောမြေ",
+      "care_level": "အလွန်လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Snake Plant",
+      "description": "An excellent indoor plant that releases oxygen at night and removes toxins from the air. It is extremely low-maintenance and highly adaptable.",
+      "sunlight": "Moderate to low light",
+      "water": "Water only when soil is completely dry",
+      "soil": "Well-draining sandy or potting soil",
+      "care_level": "Very easy"
+    }
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/PsTjDSXt/marigold.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "ထပ်တရာပန်း",
+      "description": "တောက်ပသော အဝါရောင်နှင့် လိမ္မော်ရောင် ပန်းပွင့်များရှိပြီး ရာသီအလိုက် ဖူးပွင့်သော ပန်းပင်ဖြစ်သည်။ ခြင်နှင့် အင်းဆက်များကို ပြေးစေသော အာနိသင်ရှိသဖြင့် ခြံဝင်းအတွင်း စိုက်ပျိုးရန် အထူးသင့်လျော်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေကြီးအစိုဓာတ်ရှိစေရန် ပုံမှန်ရေလောင်းပါ",
+      "soil": "မြေဆီဩဇာကြွယ်ဝပြီး ရေဆင်းကောင်းသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Marigold",
+      "description": "A seasonal flowering plant with bright yellow and orange blooms. It is known for its ability to repel mosquitoes and other insects, making it perfect for gardens.",
+      "sunlight": "Full sunlight",
+      "water": "Regular watering without waterlogging",
+      "soil": "Nutrient-rich, well-draining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/gZB1zdNn/holy-basil.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "ပင်စိမ်းပင်",
+      "description": "မွှေးကြိုင်သော ရနံ့ရှိပြီး ဟင်းလျာများတွင် သုံးနိုင်သလို၊ ချောင်းဆိုး၊ အအေးမိခြင်းနှင့် အစာအိမ်ရောဂါများကို သက်သာစေသော အလွန်အသုံးဝင်သည့် ဆေးဖက်ဝင်အပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ (သို့) အသင့်အတင့်",
+      "water": "အစိုဓာတ် အမြဲရှိနေစေရန် ပုံမှန်ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်း၍ မြေဆွေးဓာတ် ကြွယ်ဝသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Holy Basil",
+      "description": "An aromatic plant used in culinary dishes and known for its medicinal properties, including relieving coughs, colds, and stomach issues.",
+      "sunlight": "Full to partial sunlight",
+      "water": "Keep soil moist but not soggy",
+      "soil": "Well-draining soil rich in organic compost",
+      "care_level": "Easy"
+    }
+  }
+  ,{
+    "id": 5,
+    "image": "https://i.ibb.co/5gZMKVWj/spider-plant.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "ပင့်ကူပင်",
+      "description": "လေထုသန့်စင်ပေးသော အိမ်တွင်းစိုက်ပင်ဖြစ်သည်။ ခြင်းတောင်းများတွင် တွဲလောင်းချစိုက်ပျိုးရန် အထူးသင့်လျော်ပြီး ဂရုစိုက်ရအလွန်လွယ်ကူသော အပင်တစ်မျိုးဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ (သို့) အရိပ်တစ်ပိုင်း",
+      "water": "မြေကြီးအပေါ်ယံ ခြောက်သွေ့မှသာ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသော မြေဆွေး",
+      "care_level": "အလွန်လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Spider Plant",
+      "description": "An excellent air-purifying indoor plant. It looks great in hanging baskets and is very easy to care for.",
+      "sunlight": "Bright, indirect sunlight",
+      "water": "Water when the top inch of soil feels dry",
+      "soil": "Well-draining potting mix",
+      "care_level": "Very easy"
+    }
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/1Y1zwZR9/sunflower.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "နေကြာပင်",
+      "description": "နေရောင်ကို မျက်နှာမူတတ်သော တောက်ပသည့် အဝါရောင်ပန်းပွင့်ကြီးများရှိသည်။ ခြံဝင်းထဲတွင် အလှစိုက်ပျိုးရန် အလွန်သင့်လျော်သော ရာသီပေါ်ပန်းဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ (တစ်နေ့လျှင် အနည်းဆုံး ၆ နာရီ)",
+      "water": "ပုံမှန်ရေလောင်းပါ၊ မြေကြီးအလွန်အမင်း ခြောက်သွေ့ခြင်းကို ရှောင်ပါ",
+      "soil": "ရေဆင်းကောင်းပြီး မြေဆီဩဇာကြွယ်ဝသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Sunflower",
+      "description": "Features large, bright yellow blooms that face the sun. Perfect for growing in gardens as a seasonal flower.",
+      "sunlight": "Full sunlight (at least 6 hours a day)",
+      "water": "Water regularly, avoid letting the soil dry out completely",
+      "soil": "Nutrient-rich, well-draining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/FSmNPZ0/ginger.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "ဂျင်းပင်",
+      "description": "ဟင်းခတ်အမွှေးအကြိုင်အဖြစ်သာမက အအေးမိ၊ ချောင်းဆိုးနှင့် အစာအိမ်အချဉ်ပေါက်ခြင်းတို့ကို သက်သာစေသော အလွန်အသုံးဝင်သည့် ဆေးဖက်ဝင် ဥအမျိုးအစားဖြစ်သည်။",
+      "sunlight": "အရိပ်တစ်ပိုင်းနှင့် နေရောင်နုနု",
+      "water": "အစိုဓာတ် ထိန်းထားနိုင်ရန် ပုံမှန်ရေလောင်းပေးပါ",
+      "soil": "သဲဆန်ပြီး မြေဆွေးပါဝင်သောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Ginger",
+      "description": "A tuberous plant used as a spice and a medicinal remedy to relieve colds, coughs, and indigestion.",
+      "sunlight": "Partial shade and gentle sunlight",
+      "water": "Water regularly to keep the soil moist",
+      "soil": "Sandy, compost-rich soil",
+      "care_level": "Moderate"
+    }
+  }
+  ,{
+    "id": 8,
+    "image": "https://i.ibb.co/bgnHqXyC/golden-pothos.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "ငွေဝင်ပင်",
+      "description": "အခန်းတွင်း လေထုသန့်စင်ပေးပြီး စိုက်ပျိုးရအလွန်လွယ်ကူသော အပင်ဖြစ်သည်။ ရေပုလင်းထဲတွင်လည်း အလွယ်တကူ စိုက်ပျိုးနိုင်သည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ",
+      "water": "မြေခြောက်မှသာ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသော မြေဆွေး",
+      "care_level": "အလွန်လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Golden Pothos",
+      "description": "A very easy-to-grow indoor plant that purifies the air. It can also be easily grown in water bottles.",
+      "sunlight": "Indirect sunlight",
+      "water": "Water when soil is dry",
+      "soil": "Well-draining potting soil",
+      "care_level": "Very easy"
+    }
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/hbfST1N/mint.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "ပူဒီနာ",
+      "description": "မွှေးကြိုင်သော ရနံ့ရှိပြီး ဟင်းလျာများနှင့် အဖျော်ယမကာများတွင် အသုံးပြုသည်။ အစာကြေစေရန်နှင့် ခေါင်းကိုက်သက်သာစေရန် အထူးကောင်းမွန်သည်။",
+      "sunlight": "နေရောင်ခြည် အသင့်အတင့် (သို့) အရိပ်တစ်ပိုင်း",
+      "water": "မြေကြီး အစိုဓာတ် အမြဲရှိနေစေရန် ဂရုစိုက်ပါ",
+      "soil": "ရေဆင်းကောင်းပြီး မြေဆီဩဇာကြွယ်ဝသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Mint",
+      "description": "An aromatic plant used in foods and beverages. It is excellent for aiding digestion and relieving headaches.",
+      "sunlight": "Moderate sunlight or partial shade",
+      "water": "Keep the soil consistently moist",
+      "soil": "Nutrient-rich, well-draining soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/3YkXwzd8/rose.avif",
+    "category": "seasonal",
+    "mm": {
+      "name": "နှင်းဆီ",
+      "description": "လှပသော ပန်းပွင့်များနှင့် မွှေးကြိုင်သော ရနံ့ရှိသည့် ကမ္ဘာကျော် ပန်းပင်ဖြစ်သည်။ ပန်းဥယျာဉ်များတွင် အလှစိုက်ပျိုးရန် အကောင်းဆုံးဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေကြီးအပေါ်ယံ ခြောက်သွေ့ပါက ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းမွန်သော မြေဆွေး",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Rose",
+      "description": "A world-famous flower known for its beautiful blooms and fragrance. Perfect for ornamental gardening.",
+      "sunlight": "Full sunlight",
+      "water": "Water when the topsoil feels dry",
+      "soil": "Well-draining, compost-rich soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/hF4cgVFH/lemongrass.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "စပါးလင်",
+      "description": "ဟင်းလျာများတွင် အမွှေးအကြိုင်အဖြစ် သုံးပြီး၊ ခြင်ပြေးစေသော အာနိသင်ရှိသည်။ သွေးတိုးကျစေရန်နှင့် အဖျားကျစေရန်လည်း ဆေးဖက်ဝင်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "ပုံမှန်ရေလောင်းပါ",
+      "soil": "သဲဆန်ပြီး ရေဆင်းကောင်းသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Lemongrass",
+      "description": "Used as a culinary herb and has mosquito-repelling properties. Medicinally used to lower blood pressure and reduce fever.",
+      "sunlight": "Full sunlight",
+      "water": "Water regularly",
+      "soil": "Sandy, well-draining soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/2YYZqr3Y/peace-lily.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "ငြိမ်းချမ်းရေးပန်း",
+      "description": "အဖြူရောင် ပန်းပွင့်လေးများပွင့်ပြီး အိမ်တွင်းလေထုကို အကောင်းဆုံး သန့်စင်ပေးနိုင်သော အပင်ဖြစ်သည်။",
+      "sunlight": "အရိပ် (သို့) နေရောင်နုနု",
+      "water": "မြေကြီး အစိုဓာတ်ရှိစေရန် တစ်ပတ်တစ်ခါ ရေလောင်းပါ",
+      "soil": "အစိုဓာတ်ထိန်းနိုင်သော မြေဆွေး",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Peace Lily",
+      "description": "Features beautiful white flowers and is one of the best indoor air purifiers.",
+      "sunlight": "Shade or low indirect light",
+      "water": "Water once a week to keep soil moist",
+      "soil": "Moisture-retaining potting soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co/spzRyNRB/jasmine.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "စံပယ်",
+      "description": "အလွန်မွှေးကြိုင်သော အဖြူရောင်ပန်းပွင့်လေးများ ရှိသည်။ မြန်မာလူမျိုးတို့ အထူးမြတ်နိုးစွာ စိုက်ပျိုးကြသော ပန်းပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ (သို့) အသင့်အတင့်",
+      "water": "ရေမှန်မှန်လောင်းပါ",
+      "soil": "မြေဆီကြွယ်ဝပြီး ရေမဝပ်သောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Jasmine",
+      "description": "Known for its highly fragrant white flowers. A deeply cherished plant in Myanmar culture.",
+      "sunlight": "Full to moderate sunlight",
+      "water": "Water regularly",
+      "soil": "Nutrient-rich, well-draining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co/vxS2M0py/turmeric.webp",
+    "category": "medicinal",
+    "mm": {
+      "name": "နနွင်း",
+      "description": "အသားအရေလှပစေခြင်း၊ ရောင်ရမ်းမှုကျဆင်းစေခြင်းနှင့် ခုခံအားကောင်းစေခြင်းစသည့် ဆေးဖက်ဝင် အကျိုးကျေးဇူးများစွာရှိသော ဥအမျိုးအစားဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် အသင့်အတင့်",
+      "water": "အစိုဓာတ်ရုံမျှသာ ပုံမှန်ရေလောင်းပါ",
+      "soil": "မြေဆွေးကြွယ်ဝသော သဲဆန်မြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Turmeric",
+      "description": "A rhizome with numerous medicinal benefits, including improving skin health, reducing inflammation, and boosting immunity.",
+      "sunlight": "Moderate sunlight",
+      "water": "Water regularly just to keep it moist",
+      "soil": "Compost-rich sandy soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co/nM0rtQ50/zz-plant.webp",
+    "category": "indoor",
+    "mm": {
+      "name": "ဇီဇီပင်",
+      "description": "အရွက်လေးများ ပြောင်လက်နေပြီး ရေမလောင်းဘဲ အချိန်ကြာမြင့်စွာ ခံနိုင်ရည်ရှိသော အိမ်တွင်းစိုက်ပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် နည်းပါးသောနေရာ (သို့) အရိပ်",
+      "water": "၂ ပတ် သို့မဟုတ် ၃ ပတ်လျှင် တစ်ခါသာ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသော သဲဆန်မြေ",
+      "care_level": "အလွန်လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "ZZ Plant",
+      "description": "Features glossy leaves and is highly drought-tolerant, making it a perfect indoor plant.",
+      "sunlight": "Low light or shade",
+      "water": "Water only once every 2-3 weeks",
+      "soil": "Well-draining sandy soil",
+      "care_level": "Very easy"
+    }
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co/HcMM1RT/orchid.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "သစ်ခွ",
+      "description": "ရောင်စုံလှပသော ပန်းပွင့်များရှိပြီး ကြာရှည်ခံသော ပန်းပင်ဖြစ်သည်။ လေဝင်လေထွက်ကောင်းသော နေရာများကို နှစ်သက်သည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ",
+      "water": "အမြစ်များ ခြောက်သွေ့သွားမှသာ ရေဖြန်းပေးပါ",
+      "soil": "သစ်ခွစိုက်ပျိုးရန် သီးသန့် အခေါက်/မီးသွေးခဲများ",
+      "care_level": "ခက်ခဲသည်"
+    },
+    "en": {
+      "name": "Orchid",
+      "description": "Known for its vibrant, long-lasting blooms. Prefers well-ventilated areas.",
+      "sunlight": "Indirect sunlight",
+      "water": "Mist or water only when roots are dry",
+      "soil": "Specialized orchid bark or charcoal mix",
+      "care_level": "Hard"
+    }
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co/cKGZqBvT/gotu-kola.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "မြင်းခွာရွက်",
+      "description": "ဉာဏ်ရည်ကို ကောင်းမွန်စေပြီး သွေးလည်ပတ်မှုကို အားပေးသော ဆေးဖက်ဝင်အပင်ဖြစ်သည်။ သုပ်စားရန်နှင့် ဖျော်ရည်အဖြစ် သောက်သုံးရန် အလွန်ကောင်းမွန်သည်။",
+      "sunlight": "အရိပ်တစ်ပိုင်း (သို့) နေရောင်နုနု",
+      "water": "မြေကြီးအမြဲ စိုစွတ်နေစေရန် ရေလောင်းပါ",
+      "soil": "ရွှံ့ဆန်သော (သို့) အစိုဓာတ်ထိန်းနိုင်သောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Gotu Kola",
+      "description": "A medicinal herb that improves brain function and blood circulation. Great for salads and healthy drinks.",
+      "sunlight": "Partial shade or gentle sunlight",
+      "water": "Water generously to keep soil constantly moist",
+      "soil": "Loamy or moisture-retaining soil",
+      "care_level": "Easy"
+    }
+  }
+  ,{
+    "id": 18,
+    "image": "https://i.ibb.co/bgTPVtJh/rubber-plant.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "ရာဘာအလှစိုက်ပင်",
+      "description": "အရွက်ကြီးမားပြီး ပြောင်လက်နေသော အိမ်တွင်းစိုက်ပင်ဖြစ်သည်။ လေထုသန့်စင်ပေးပြီး ဧည့်ခန်းများတွင် ထားရှိရန် အလွန်သင့်လျော်သည်။",
+      "sunlight": "တိုက်ရိုက်မဟုတ်သော နေရောင်ခြည်",
+      "water": "မြေကြီးအပေါ်ယံခြောက်သွေ့မှ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသောမြေဆွေး",
+      "care_level": "အလွယ်တကူ"
+    },
+    "en": {
+      "name": "Rubber Plant",
+      "description": "A popular indoor plant with large, glossy leaves. It purifies the air and is perfect for living rooms.",
+      "sunlight": "Indirect sunlight",
+      "water": "Water when topsoil is dry",
+      "soil": "Well-draining potting soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co/wrwr2GVk/bougainvillea.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "စက္ကူပန်း",
+      "description": "တောက်ပသော အရောင်အသွေးရှိပြီး နွယ်ပင်သဘာဝရှိသော ပန်းပင်ဖြစ်သည်။ ပူနွေးသောရာသီဥတုကို နှစ်သက်သည်။",
+      "sunlight": "နေရောင်ခြည်အပြည့်အဝ",
+      "water": "ရေအနည်းငယ်သာ လိုအပ်သည်",
+      "soil": "ရေဆင်းကောင်းသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Bougainvillea",
+      "description": "A vibrant, vining flower plant that thrives in warm climates.",
+      "sunlight": "Full sunlight",
+      "water": "Low water requirement",
+      "soil": "Well-draining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co/8Dj60MrM/neem.webp",
+    "category": "medicinal",
+    "mm": {
+      "name": "တမာပင်",
+      "description": "အရွက်မှစ၍ အမြစ်အထိ ဆေးဘက်ဝင်သော အပင်ဖြစ်သည်။ ပိုးမွှားများကို သဘာဝအတိုင်း နှိမ်နင်းပေးနိုင်သည်။",
+      "sunlight": "နေရောင်ခြည်အပြည့်အဝ",
+      "water": "မြေခြောက်မှ ရေလောင်းပါ",
+      "soil": "မြေဆီလွှာမရွေး ရှင်သန်နိုင်သည်",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Neem",
+      "description": "A highly medicinal tree from leaves to roots. It acts as a natural pest repellent.",
+      "sunlight": "Full sunlight",
+      "water": "Water when soil is dry",
+      "soil": "Adaptable to most soils",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 21,
+    "image": "https://i.ibb.co/rGBT3LwC/monstera.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "မွန်စတီရာ",
+      "description": "အရွက်တွင် အပေါက်လေးများ ပါရှိပြီး အလွန်လှပသော အိမ်တွင်းစိုက်ပင်ဖြစ်သည်။ ခေတ်ဆန်သော အိမ်အလှဆင်ခြင်းများတွင် အများဆုံးသုံးသည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ",
+      "water": "တစ်ပတ်တစ်ခါ ရေလောင်းပါ",
+      "soil": "အစိုဓာတ်ထိန်းသော မြေဆွေး",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Monstera",
+      "description": "A stunning indoor plant with distinctive holed leaves. Widely used in modern home decor.",
+      "sunlight": "Indirect sunlight",
+      "water": "Water once a week",
+      "soil": "Moisture-retaining potting mix",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 22,
+    "image": "https://i.ibb.co/sd0zSkkT/chrysanthemum.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "ဂန္ဓမာပန်း",
+      "description": "ရောင်စုံဖူးပွင့်တတ်ပြီး ဆောင်းရာသီတွင် အလှဆုံးပွင့်သော ပန်းဖြစ်သည်။ လက်ဖက်ရည်ကြမ်းအဖြစ်လည်း သောက်သုံးကြသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ (သို့) အသင့်အတင့်",
+      "water": "မြေကြီးအစိုဓာတ်ရှိအောင်ထားပါ",
+      "soil": "ရေဆင်းကောင်းသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Chrysanthemum",
+      "description": "Blooms beautifully in various colors, especially in winter. Also consumed as herbal tea.",
+      "sunlight": "Full to moderate sunlight",
+      "water": "Keep soil moist",
+      "soil": "Well-draining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 23,
+    "image": "https://i.ibb.co/tTsK2Xvt/moringa.webp",
+    "category": "medicinal",
+    "mm": {
+      "name": "ဒန့်သလွန်ပင်",
+      "description": "ဗီတာမင်နှင့် သတ္တုဓာတ်များ အလွန်ကြွယ်ဝသော ဆေးဖက်ဝင်အပင်ဖြစ်သည်။ သွေးတိုးကျစေပြီး ကျန်းမာရေးအတွက် အထူးကောင်းမွန်သည်။",
+      "sunlight": "နေရောင်ခြည်အပြည့်အဝ",
+      "water": "ပုံမှန်ရေလောင်းပါ",
+      "soil": "သဲဆန်ပြီး ရေဆင်းကောင်းသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Moringa",
+      "description": "A highly nutritious medicinal tree rich in vitamins and minerals. Helps lower blood pressure.",
+      "sunlight": "Full sunlight",
+      "water": "Regular watering",
+      "soil": "Sandy, well-draining soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 24,
+    "image": "https://i.ibb.co/39D9bCgH/jade-plant.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "ကျောက်စိမ်းပင်",
+      "description": "အရည်ရွှမ်းပင် အမျိုးအစားဖြစ်ပြီး စီးပွားလာဘ်လာဘ တိုးတက်စေသည်ဟု ယုံကြည်ကြသော အပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် အသင့်အတင့်",
+      "water": "မြေလုံးဝခြောက်မှသာ ရေလောင်းပါ",
+      "soil": "သဲဆန်သောမြေ",
+      "care_level": "အလွန်လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Jade Plant",
+      "description": "A succulent plant widely believed to bring good luck and prosperity.",
+      "sunlight": "Moderate sunlight",
+      "water": "Water only when completely dry",
+      "soil": "Sandy soil",
+      "care_level": "Very easy"
+    }
+  },
+  {
+    "id": 25,
+    "image": "https://i.ibb.co/Tq1xvB0d/lotus.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "ကြာပန်း",
+      "description": "ရေထဲတွင် ပေါက်ရောက်ပြီး အလွန်လှပသန့်စင်သော ပန်းဖြစ်သည်။ မြန်မာ့ယဉ်ကျေးမှုတွင် အထူးမွန်မြတ်သော ပန်းအဖြစ် သတ်မှတ်သည်။",
+      "sunlight": "နေရောင်ခြည်အပြည့်အဝ",
+      "water": "ရေထဲတွင် ပေါက်ရောက်သည်",
+      "soil": "ရွှံ့စေးမြေ",
+      "care_level": "ခက်ခဲသည်"
+    },
+    "en": {
+      "name": "Lotus",
+      "description": "A beautiful and pure aquatic flower. Highly sacred and revered in Myanmar culture.",
+      "sunlight": "Full sunlight",
+      "water": "Grows in water",
+      "soil": "Clay/Mud",
+      "care_level": "Hard"
+    }
+  },
+  {
+    "id": 26,
+    "image": "https://i.ibb.co/yBqTZc3q/roselle.webp",
+    "category": "medicinal",
+    "mm": {
+      "name": "ချဉ်ပေါင်ပင်",
+      "description": "အရွက်ကို ဟင်းအဖြစ် ချက်စားနိုင်ပြီး အသီးကို ဖျော်ရည်လုပ်သောက်ပါက သွေးတိုးကျစေသော ဆေးဖက်ဝင်အပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည်အပြည့်အဝ",
+      "water": "ပုံမှန်ရေလောင်းပါ",
+      "soil": "မြေဆီဩဇာကြွယ်ဝသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Roselle (Hibiscus)",
+      "description": "Leaves are cooked as food, and the fruit makes a healthy drink that lowers blood pressure.",
+      "sunlight": "Full sunlight",
+      "water": "Regular watering",
+      "soil": "Nutrient-rich soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 27,
+    "image": "https://i.ibb.co/dwLTRDJV/betel-leaf.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "ကွမ်းရွက်ပင်",
+      "description": "မြန်မာလူမျိုးတို့၏ ရိုးရာယဉ်ကျေးမှုတွင် ပါဝင်ပြီး၊ အစာကြေစေခြင်းနှင့် ချောင်းဆိုးပျောက်စေသော ဆေးဖက်ဝင် နွယ်ပင်ဖြစ်သည်။",
+      "sunlight": "အရိပ်တစ်ပိုင်း (သို့) နေရောင်နုနု",
+      "water": "မြေကြီးအမြဲစိုစွတ်နေရန် လိုအပ်သည်",
+      "soil": "မြေဆွေးကြွယ်ဝသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Betel Leaf",
+      "description": "A culturally significant vine in Myanmar, known for aiding digestion and relieving coughs.",
+      "sunlight": "Partial shade or gentle sunlight",
+      "water": "Keep soil consistently moist",
+      "soil": "Compost-rich soil",
+      "care_level": "Moderate"
+    }
+  }
+  ,{
+    "id": 28,
+    "image": "https://i.ibb.co/VcZL13Lc/tulip.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "ကျူးလစ်",
+      "description": "အရောင်အသွေးစုံလင်ပြီး ခွက်ပုံစံ ပန်းပွင့်လေးများရှိသည်။ ရာသီဥတုအေးမြသော ဒေသများတွင် အများဆုံး ရှင်သန်ဖူးပွင့်ကြသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ (သို့) အသင့်အတင့်",
+      "water": "မြေကြီးအစိုဓာတ်ရှိစေရန် ပုံမှန်ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းပြီး မြေဆွေးပါသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Tulip",
+      "description": "Known for their vibrant, cup-shaped flowers, tulips thrive and bloom best in cooler climates.",
+      "sunlight": "Full or partial sunlight",
+      "water": "Water regularly to keep soil moist",
+      "soil": "Well-draining compost soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 29,
+    "image": "https://i.ibb.co/VpPVTbnY/lavender.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "လာဗင်ဒါ",
+      "description": "စိတ်ကို တည်ငြိမ်စေပြီး အိပ်ပျော်စေသော ရနံ့ရှိသည်။ ဆီအဖြစ်ထုတ်လုပ်ကာ အလှကုန်နှင့် ဆေးဝါးများတွင် အများဆုံးအသုံးပြုသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေကြီးအပေါ်ယံခြောက်မှ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသော သဲဆန်မြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Lavender",
+      "description": "Famous for its calming scent that aids sleep. Extensively used in essential oils and cosmetics.",
+      "sunlight": "Full sunlight",
+      "water": "Water when topsoil is dry",
+      "soil": "Well-draining sandy soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 30,
+    "image": "https://i.ibb.co/7x31GzBH/fiddle-leaf-fig.webp",
+    "category": "indoor",
+    "mm": {
+      "name": "တယောရွက်ပင်",
+      "description": "တယောပုံစံ အရွက်ကြီးများရှိပြီး ခေတ်ဆန်သော အိမ်ခန်းတွင်း အလှဆင်ရာတွင် အလွန်ရေပန်းစားသော အပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ",
+      "water": "မြေကြီးအပေါ်ယံခြောက်မှ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသော မြေဆွေး",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Fiddle Leaf Fig",
+      "description": "Features large, violin-shaped leaves. Extremely popular for modern interior decoration.",
+      "sunlight": "Indirect sunlight",
+      "water": "Water when topsoil is dry",
+      "soil": "Well-draining potting mix",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 31,
+    "image": "https://i.ibb.co/ccBdLMF8/cactus.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "ရှားစောင်းပင်",
+      "description": "ရေမလိုဘဲ အချိန်ကြာမြင့်စွာ ရှင်သန်နိုင်ပြီး ကွန်ပျူတာဘေးတွင်ထားပါက ဓာတ်ရောင်ခြည်ကို လျှော့ချပေးသည်ဟု ယုံကြည်ကြသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေလုံးဝခြောက်မှသာ ရေအနည်းငယ်လောင်းပါ",
+      "soil": "ရှားစောင်းမြေ (သို့) သဲဆန်မြေ",
+      "care_level": "အလွန်လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Cactus",
+      "description": "Highly drought-tolerant. Often placed near computers as it's believed to reduce radiation.",
+      "sunlight": "Full sunlight",
+      "water": "Water sparingly only when completely dry",
+      "soil": "Cactus mix or sandy soil",
+      "care_level": "Very easy"
+    }
+  },
+  {
+    "id": 32,
+    "image": "https://i.ibb.co/1GTY8yVm/boston-fern.webp",
+    "category": "indoor",
+    "mm": {
+      "name": "ဒေါင်းမြီးကင်း",
+      "description": "စိုစွတ်သော ပတ်ဝန်းကျင်ကို နှစ်သက်ပြီး လေထုအတွင်းရှိ အစိုဓာတ်ကို ထိန်းပေးသော အလှစိုက် ဖန်ပင်အမျိုးအစားဖြစ်သည်။",
+      "sunlight": "အရိပ် (သို့) နေရောင်နုနု",
+      "water": "မြေကြီးအမြဲစိုစွတ်နေရန် လိုအပ်သည်",
+      "soil": "အစိုဓာတ်ထိန်းသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Boston Fern",
+      "description": "Loves humidity and helps maintain moisture in indoor air, making it a great decorative fern.",
+      "sunlight": "Shade or indirect light",
+      "water": "Keep soil consistently moist",
+      "soil": "Moisture-retaining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 33,
+    "image": "https://i.ibb.co/3msVGJMQ/hibiscus.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "ခေါင်ရန်းပန်း",
+      "description": "အရောင်တောက်တောက် ပန်းပွင့်ကြီးများရှိပြီး ခေါင်ရန်းပန်းကို ရေနွေးကြမ်းအဖြစ် သောက်သုံးပါက သွေးတိုးကျစေရန် ကောင်းမွန်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "ပုံမှန်ရေလောင်းပါ",
+      "soil": "မြေဆီကြွယ်ဝသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Hibiscus",
+      "description": "Features large, vibrant blooms. Hibiscus tea is known to help lower blood pressure.",
+      "sunlight": "Full sunlight",
+      "water": "Regular watering",
+      "soil": "Nutrient-rich soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 34,
+    "image": "https://i.ibb.co/k2fXv6Lz/thyme.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "စမုန်ဖြူ",
+      "description": "ဟင်းခတ်အမွှေးအကြိုင်အဖြစ် သုံးပြီး ချောင်းဆိုးပျောက်ဆေးများတွင်လည်း ထည့်သွင်းအသုံးပြုသော ဆေးဖက်ဝင်အပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေခြောက်မှသာ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသော သဲဆန်မြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Thyme",
+      "description": "A culinary herb that is also used in cough syrups for its strong medicinal properties.",
+      "sunlight": "Full sunlight",
+      "water": "Water only when dry",
+      "soil": "Well-draining sandy soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 35,
+    "image": "https://i.ibb.co/1YPS3G8x/lily.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "လီလီပန်း",
+      "description": "ကြီးမားလှပသော ပန်းပွင့်များနှင့် မွှေးကြိုင်သော ရနံ့ရှိသည်။ မင်္ဂလာပွဲများနှင့် အလှဆင်ရာတွင် အများဆုံးအသုံးပြုကြသည်။",
+      "sunlight": "နေရောင်ခြည် အသင့်အတင့်",
+      "water": "မြေကြီးအစိုဓာတ်ရှိစေရန် ပုံမှန်ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသောမြေဆွေး",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Lily",
+      "description": "Has large, beautiful blooms with a strong fragrance. Commonly used in weddings and floral arrangements.",
+      "sunlight": "Moderate sunlight",
+      "water": "Water regularly to keep soil moist",
+      "soil": "Well-draining potting soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 36,
+    "image": "https://i.ibb.co/g2Vfk1T/calathea.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "ဒေါင်းဖန်ပင်",
+      "description": "အရွက်ပေါ်တွင် လှပသော ဒီဇိုင်းများပါရှိပြီး ညဘက်တွင် အရွက်များ စုပိတ်သွားတတ်သော ထူးခြားသည့်အပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ",
+      "water": "မြေကြီးစိုစွတ်နေအောင်ထားပါ (ရေမဝပ်စေရ)",
+      "soil": "မြေဆွေးကြွယ်ဝသောမြေ",
+      "care_level": "ခက်ခဲသည်"
+    },
+    "en": {
+      "name": "Calathea (Prayer Plant)",
+      "description": "Known for its strikingly patterned leaves that fold up at night like hands in prayer.",
+      "sunlight": "Indirect sunlight",
+      "water": "Keep soil moist but not soggy",
+      "soil": "Compost-rich soil",
+      "care_level": "Hard"
+    }
+  },
+  {
+    "id": 37,
+    "image": "https://i.ibb.co/rKhjmSFG/rosemary.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "ရို့စ်မေရီ",
+      "description": "မှတ်ဉာဏ်ကောင်းစေသော ရနံ့ရှိပြီး ဟင်းလျာများချက်ပြုတ်ရာတွင် အလွန်ရေပန်းစားသော အမွှေးအကြိုင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေကြီးအပေါ်ယံခြောက်မှ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Rosemary",
+      "description": "A popular culinary herb with a distinctive scent known to improve memory and concentration.",
+      "sunlight": "Full sunlight",
+      "water": "Water when topsoil is dry",
+      "soil": "Well-draining soil",
+      "care_level": "Easy"
+    }
+  }
+  ,{
+    "id": 38,
+    "image": "https://i.ibb.co/Gmj9YwD/areca-palm.webp",
+    "category": "indoor",
+    "mm": {
+      "name": "အလှစိုက် ကွမ်းသီးပင်",
+      "description": "အိမ်ခန်းနှင့် ရုံးခန်းများတွင် အလှစိုက်ပျိုးရန် အလွန်သင့်လျော်ပြီး လေထုအတွင်းရှိ အဆိပ်အတောက်များကို စုပ်ယူပေးနိုင်သော အပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ",
+      "water": "မြေကြီး အစိုဓာတ်ရှိအောင် ပုံမှန်ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Areca Palm",
+      "description": "Perfect for decorating homes and offices. It acts as a natural humidifier and air purifier.",
+      "sunlight": "Indirect sunlight",
+      "water": "Water regularly to keep soil moist",
+      "soil": "Well-draining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 39,
+    "image": "https://i.ibb.co/SwcMYwRm/peppermint.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "ပရုတ်စီ",
+      "description": "အလွန်လန်းဆန်းသော ရနံ့ရှိပြီး ခေါင်းကိုက်ခြင်း၊ ကြွက်သားနာကျင်ခြင်းနှင့် အစာမကြေခြင်းများကို သက်သာစေရန် အသုံးပြုသော ဆေးဖက်ဝင်အပင်ဖြစ်သည်။",
+      "sunlight": "အရိပ်တစ်ပိုင်း (သို့) နေရောင်နုနု",
+      "water": "မြေကြီး အမြဲစိုစွတ်နေပါစေ",
+      "soil": "ရေဆင်းကောင်းသော မြေဆွေး",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Peppermint",
+      "description": "Has a refreshing scent and is widely used to relieve headaches, muscle pain, and indigestion.",
+      "sunlight": "Partial shade or gentle sunlight",
+      "water": "Keep soil consistently moist",
+      "soil": "Well-draining potting soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 40,
+    "image": "https://i.ibb.co/rf19dS31/dahlia.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "ဒါလီယာပန်း",
+      "description": "အရောင်အသွေး စုံလင်ပြီး အလွန်လှပသော ပန်းပွင့်ကြီးများရှိသည်။ ပန်းဥယျာဉ်များကို အလှဆင်ရာတွင် ထိပ်တန်းမှ ပါဝင်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "ပုံမှန်ရေလောင်းပါ",
+      "soil": "မြေဆီဩဇာကြွယ်ဝသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Dahlia",
+      "description": "Known for its stunning, large, and colorful blooms. A top choice for garden landscaping.",
+      "sunlight": "Full sunlight",
+      "water": "Water regularly",
+      "soil": "Nutrient-rich soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 41,
+    "image": "https://i.ibb.co/7x3TYY4t/ginseng.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "ဂျင်ဆင်း",
+      "description": "ခွန်အားကို တိုးပွားစေပြီး ကိုယ်ခံစွမ်းအားကို မြှင့်တင်ပေးနိုင်သည့် ကမ္ဘာကျော် ဆေးဖက်ဝင် အမြစ် (ဥ) ဖြစ်သည်။",
+      "sunlight": "အရိပ် (သို့) နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ",
+      "water": "မြေကြီး အစိုဓာတ်ရှိရုံသာ ရေလောင်းပါ",
+      "soil": "သဲဆန်ပြီး မြေဆွေးပါသောမြေ",
+      "care_level": "ခက်ခဲသည်"
+    },
+    "en": {
+      "name": "Ginseng",
+      "description": "A world-renowned medicinal root that boosts energy levels and strengthens the immune system.",
+      "sunlight": "Shade or indirect sunlight",
+      "water": "Water lightly to keep soil moist",
+      "soil": "Sandy, compost-rich soil",
+      "care_level": "Hard"
+    }
+  },
+  {
+    "id": 42,
+    "image": "https://i.ibb.co/1fdnmwtS/anthurium.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "အန်သူးရီးယမ်း",
+      "description": "အသည်းနှလုံးပုံစံ အနီရောင်ပန်းပွင့်လေးများ တောက်ပြောင်စွာ ပွင့်တတ်ပြီး အိမ်တွင်းလေထုကို သန့်စင်ပေးသော အပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ",
+      "water": "မြေကြီးအပေါ်ယံ ခြောက်သွေ့မှသာ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသော သစ်ခွမြေဆွေး",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Anthurium",
+      "description": "Features shiny, heart-shaped red flowers. It is an excellent indoor air purifier.",
+      "sunlight": "Indirect sunlight",
+      "water": "Water when topsoil is dry",
+      "soil": "Well-draining orchid or potting mix",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 43,
+    "image": "https://i.ibb.co/xKs9K1Pd/zinnia.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "ဇင်နီယာပန်း",
+      "description": "လိပ်ပြာများကို ဆွဲဆောင်နိုင်သော ရောင်စုံပန်းပင်ဖြစ်သည်။ နွေရာသီတွင် အလှပဆုံး ဖူးပွင့်လေ့ရှိသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "ပုံမှန်ရေလောင်းပါ (အရွက်ကို ရေမထိစေရန် ဂရုစိုက်ပါ)",
+      "soil": "ရေဆင်းကောင်းသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Zinnia",
+      "description": "A colorful flower that attracts butterflies. Blooms most beautifully during the summer.",
+      "sunlight": "Full sunlight",
+      "water": "Water regularly (avoid wetting the leaves)",
+      "soil": "Well-draining soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 44,
+    "image": "https://i.ibb.co/WpN0mhJK/eucalyptus.webp",
+    "category": "medicinal",
+    "mm": {
+      "name": "ယူကလစ်ပင်",
+      "description": "အအေးမိ၊ နှာစေးခြင်းများကို သက်သာစေသော ဆီထုတ်လုပ်ရာတွင် သုံးသည်။ အရွက်များကို ရေနွေးငွေ့ရှူရာတွင် အသုံးပြုလေ့ရှိသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေခြောက်မှ ရေလောင်းပါ",
+      "soil": "မြေအမျိုးအစားမရွေး ရှင်သန်နိုင်သည်",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Eucalyptus",
+      "description": "Used to produce essential oils that relieve colds and congestion. Leaves are often used in steam inhalation.",
+      "sunlight": "Full sunlight",
+      "water": "Water when dry",
+      "soil": "Adaptable to most soils",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 45,
+    "image": "https://i.ibb.co/mVFsx6m7/english-ivy.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "အင်္ဂလိပ်နွယ်ပင်",
+      "description": "နံရံများ၊ စင်များတွင် တွယ်ကပ်ပေါက်ရောက်တတ်သော လှပသည့် နွယ်ပင်ဖြစ်သည်။ လေထုအတွင်းရှိ မှိုစွယ်များကို လျှော့ချပေးနိုင်သည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ (သို့) အရိပ်",
+      "water": "မြေကြီးအစိုဓာတ်ရှိအောင် ပုံမှန်ရေလောင်းပါ",
+      "soil": "မြေဆီကြွယ်ဝသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "English Ivy",
+      "description": "A beautiful climbing vine that looks great on shelves and walls. Known for reducing airborne mold.",
+      "sunlight": "Indirect sunlight or shade",
+      "water": "Water regularly to keep soil moist",
+      "soil": "Nutrient-rich soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 46,
+    "image": "https://i.ibb.co/LdtxfnkM/carnation.webp",
+    "category": "seasonal",
+    "mm": {
+      "name": "ကာနေးရှင်းပန်း",
+      "description": "အလွန်မွှေးကြိုင်ပြီး အရောင်အသွေးစုံလင်သည်။ မိခင်များနေ့ကဲ့သို့သော အထိမ်းအမှတ်ပွဲများတွင် အများဆုံး လက်ဆောင်ပေးလေ့ရှိကြသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ (သို့) အသင့်အတင့်",
+      "water": "မြေကြီးအစိုဓာတ်ရှိအောင်ထားပါ",
+      "soil": "ရေဆင်းကောင်းသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Carnation",
+      "description": "Highly fragrant and colorful. Traditionally gifted during special occasions like Mother's Day.",
+      "sunlight": "Full to moderate sunlight",
+      "water": "Keep soil moist",
+      "soil": "Well-draining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 47,
+    "image": "https://i.ibb.co/Y7BSzt8x/sage.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "ဆေ့ချ်ပင်",
+      "description": "ဟင်းခတ်အမွှေးအကြိုင်အဖြစ် သုံးသလို၊ ခံတွင်းကျန်းမာရေးနှင့် လည်ချောင်းနာခြင်းများကို သက်သာစေရန် သုံးသော ဆေးဖက်ဝင်အပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေခြောက်မှသာ ရေလောင်းပါ",
+      "soil": "သဲဆန်ပြီး ရေဆင်းကောင်းသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Sage",
+      "description": "A culinary herb that is also used medicinally to improve oral health and soothe sore throats.",
+      "sunlight": "Full sunlight",
+      "water": "Water only when soil is dry",
+      "soil": "Sandy, well-draining soil",
+      "care_level": "Easy"
+    }
+  }
+  ,{
+    "id": 48,
+    "image": "https://i.ibb.co/Y4R9qTnC/morning-glory.webp",
+    "category": "seasonal",
+    "mm": {
+      "name": "နေခြည်ပန်း",
+      "description": "မနက်ခင်းတွင်သာ ပွင့်လေ့ရှိပြီး အိမ်ခြံစည်းရိုးများတွင် နွယ်တက်စိုက်ပျိုးရန် အလွန်လှပသော ပန်းပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေကြီး အစိုဓာတ်ရှိစေရန် ပုံမှန်ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Morning Glory",
+      "description": "A beautiful vining plant that blooms only in the morning, perfect for fences and trellises.",
+      "sunlight": "Full sunlight",
+      "water": "Water regularly to keep soil moist",
+      "soil": "Well-draining soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 49,
+    "image": "https://i.ibb.co/5gjVYHbv/aglaonema.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "ဆင်ကတိုး",
+      "description": "အရွက်များတွင် လှပသော အရောင်အသွေးစုံလင်စွာ ပါရှိပြီး ပြုစုရအလွန်လွယ်ကူသော အိမ်တွင်းစိုက်ပင်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ",
+      "water": "မြေကြီးအပေါ်ယံခြောက်မှ ရေလောင်းပါ",
+      "soil": "မြေဆွေးကြွယ်ဝသောမြေ",
+      "care_level": "အလွန်လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Chinese Evergreen (Aglaonema)",
+      "description": "Features beautiful, colorful patterned leaves and is an extremely easy-to-care-for indoor plant.",
+      "sunlight": "Indirect sunlight",
+      "water": "Water when topsoil is dry",
+      "soil": "Compost-rich soil",
+      "care_level": "Very easy"
+    }
+  },
+  {
+    "id": 50,
+    "image": "https://i.ibb.co/b5Lq9BT6/ixora.webp",
+    "category": "seasonal",
+    "mm": {
+      "name": "ပုဏ္ဍရိတ်ပန်း",
+      "description": "အနီရောင်၊ အဝါရောင် စသည့် အရောင်အသွေးစုံလင်သော ပန်းပွင့်ငယ်လေးများ စုပြုံပွင့်တတ်ပြီး နေရောင်ကို အလွန်နှစ်သက်သည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "ပုံမှန်ရေလောင်းပါ",
+      "soil": "အက်စစ်ဓာတ်အနည်းငယ်ပါသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Ixora",
+      "description": "Produces clusters of small, brightly colored flowers like red and yellow, and deeply loves sunlight.",
+      "sunlight": "Full sunlight",
+      "water": "Water regularly",
+      "soil": "Slightly acidic soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 51,
+    "image": "https://i.ibb.co/wZ1KmSMr/coriander.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "နံနံပင်",
+      "description": "ဟင်းလျာများတွင် မပါမဖြစ် အမွှေးအကြိုင်အဖြစ် သုံးပြီး၊ အစာခြေစနစ်ကို ကောင်းမွန်စေကာ သွေးတွင်းသကြားဓာတ်ကို ထိန်းညှိပေးသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ (သို့) အသင့်အတင့်",
+      "water": "မြေကြီးအမြဲစိုစွတ်နေရန် လိုအပ်သည်",
+      "soil": "မြေဆီဩဇာကြွယ်ဝသောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Coriander / Cilantro",
+      "description": "An essential culinary herb that improves digestion and helps regulate blood sugar levels.",
+      "sunlight": "Full to moderate sunlight",
+      "water": "Keep soil consistently moist",
+      "soil": "Nutrient-rich soil",
+      "care_level": "Easy"
+    }
+  },
+  {
+    "id": 52,
+    "image": "https://i.ibb.co/G47bgxZh/philodendron.jpg",
+    "category": "indoor",
+    "mm": {
+      "name": "ဖီလိုဒန်ဒရွန်",
+      "description": "အိမ်တွင်းလေထုကို သန့်စင်ပေးပြီး အလင်းရောင်နည်းနည်းဖြင့် ရှင်သန်နိုင်သောကြောင့် ရုံးခန်းများတွင် အများဆုံးထားရှိကြသည်။",
+      "sunlight": "နေရောင်ခြည် နည်းပါးသောနေရာ",
+      "water": "မြေခြောက်မှသာ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသော မြေဆွေး",
+      "care_level": "အလွန်လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Philodendron",
+      "description": "Purifies indoor air and can thrive in low light, making it a highly popular choice for offices.",
+      "sunlight": "Low indirect light",
+      "water": "Water only when dry",
+      "soil": "Well-draining potting mix",
+      "care_level": "Very easy"
+    }
+  },
+  {
+    "id": 53,
+    "image": "https://i.ibb.co/CsXD1L2N/plumeria.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "တရုတ်စံကား",
+      "description": "အလွန်မွှေးကြိုင်သော ရနံ့ရှိပြီး ပန်းပွင့်များမှာ အဖြူ၊ အဝါ၊ ပန်းရောင် စသဖြင့် လှပစွာ ပွင့်လေ့ရှိသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေကြီးအပေါ်ယံခြောက်မှ ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Frangipani (Plumeria)",
+      "description": "Known for its intensely fragrant flowers that bloom beautifully in white, yellow, and pink colors.",
+      "sunlight": "Full sunlight",
+      "water": "Water when topsoil is dry",
+      "soil": "Well-draining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 54,
+    "image": "https://i.ibb.co/27HyZL7f/ginkgo.jpg",
+    "category": "medicinal",
+    "mm": {
+      "name": "ဂျင်ကို",
+      "description": "ကမ္ဘာ့သက်တမ်းအရင့်ဆုံး သစ်ပင်မျိုးစိတ်တစ်ခုဖြစ်ပြီး မှတ်ဉာဏ်စွမ်းအားကို တိုးတက်စေသော ဆေးဝါးများ ထုတ်လုပ်ရာတွင် အသုံးပြုသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ (သို့) အရိပ်တစ်ပိုင်း",
+      "water": "ပုံမှန်ရေလောင်းပါ",
+      "soil": "သဲဆန်ပြီး ရေဆင်းကောင်းသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Ginkgo Biloba",
+      "description": "One of the oldest tree species in the world, widely used in supplements to improve memory and cognitive function.",
+      "sunlight": "Full sunlight or partial shade",
+      "water": "Water regularly",
+      "soil": "Sandy, well-draining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 55,
+    "image": "https://i.ibb.co/4ZWb1jQy/poinsettia.jpg",
+    "category": "seasonal",
+    "mm": {
+      "name": "ခရစ္စမတ်ပန်း",
+      "description": "ဆောင်းရာသီတွင် အနီရောင်ရင့်ရင့် အရွက်များဖြင့် လှပစွာ ဖူးပွင့်တတ်ပြီး ခရစ္စမတ်ကာလ အလှဆင်ရာတွင် မပါမဖြစ်ဖြစ်သည်။",
+      "sunlight": "နေရောင်ခြည် သွယ်ဝိုက်ရသောနေရာ",
+      "water": "မြေကြီးအစိုဓာတ်ရှိရုံသာ ရေလောင်းပါ (ရေမဝပ်စေရ)",
+      "soil": "မြေဆွေးကြွယ်ဝသောမြေ",
+      "care_level": "ခက်ခဲသည်"
+    },
+    "en": {
+      "name": "Poinsettia",
+      "description": "Features striking deep red leaves during winter and is an essential decorative plant for the Christmas season.",
+      "sunlight": "Indirect sunlight",
+      "water": "Water lightly to keep soil moist (do not overwater)",
+      "soil": "Compost-rich soil",
+      "care_level": "Hard"
+    }
+  },
+  {
+    "id": 56,
+    "image": "https://i.ibb.co/Kcjnv6MY/croton.webp",
+    "category": "indoor",
+    "mm": {
+      "name": "ရွက်လှပင်",
+      "description": "အနီ၊ အဝါ၊ အစိမ်း ရောင်စုံ ရောယှက်နေသော အရွက်များကြောင့် ခြံဝင်းနှင့် အိမ်ခန်းများကို အသက်ဝင် တောက်ပစေသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ",
+      "water": "မြေကြီးအစိုဓာတ်ရှိစေရန် ပုံမှန်ရေလောင်းပါ",
+      "soil": "ရေဆင်းကောင်းသောမြေ",
+      "care_level": "အလယ်အလတ်"
+    },
+    "en": {
+      "name": "Croton",
+      "description": "Brightens up gardens and indoor spaces with its stunning foliage mixed with red, yellow, and green colors.",
+      "sunlight": "Full sunlight",
+      "water": "Water regularly to keep soil moist",
+      "soil": "Well-draining soil",
+      "care_level": "Moderate"
+    }
+  },
+  {
+    "id": 57,
+    "image": "https://i.ibb.co/nMdY5JfT/chamomile.webp",
+    "category": "medicinal",
+    "mm": {
+      "name": "ကာမိုမိုင်း",
+      "description": "ပန်းပွင့်လေးများကို အခြောက်လှန်းကာ ရေနွေးကြမ်းအဖြစ် သောက်သုံးပါက စိတ်ဖိစီးမှုကို လျော့ကျစေပြီး နှစ်နှစ်ခြိုက်ခြိုက် အိပ်ပျော်စေသည်။",
+      "sunlight": "နေရောင်ခြည် အပြည့်အဝ (သို့) အသင့်အတင့်",
+      "water": "မြေခြောက်မှသာ ရေလောင်းပါ",
+      "soil": "သဲဆန်သောမြေ",
+      "care_level": "လွယ်ကူသည်"
+    },
+    "en": {
+      "name": "Chamomile",
+      "description": "The dried flowers are brewed into tea, which helps reduce stress and promotes deep, restful sleep.",
+      "sunlight": "Full to moderate sunlight",
+      "water": "Water only when soil is dry",
+      "soil": "Sandy soil",
+      "care_level": "Easy"
+    }
+  }
+]
